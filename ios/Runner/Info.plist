@@ -1,0 +1,14 @@
+<key>NSMicrophoneUsageDescription</key>
+<string>Pour enregistrer l'audio avec l'écran</string>
+
+<key>UIBackgroundModes</key>
+<array>
+    <string>audio</string>
+    <string>fetch</string>
+</array>
+
+<key>NSPhotoLibraryUsageDescription</key>
+<string>Pour sauvegarder les enregistrements</string>
+
+<key>NSCameraUsageDescription</key>
+<string>Pour l'enregistrement d'écran</string>

@@ -1,0 +1,45 @@
+android {
+    compileSdkVersion 34
+    
+    defaultConfig {
+        applicationId "com.example.prime"
+        minSdkVersion 21
+        targetSdkVersion 34
+        versionCode flutterVersionCode.toInteger()
+        versionName flutterVersionName
+        multiDexEnabled true
+    }
+    
+    buildTypes {
+        release {
+            // Activer la minification pour la version release
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}name: prime
+description: Application PRIME - Enregistrement et envoi Telegram
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  ed_screen_recorder: ^0.1.0  # Pour l'enregistrement d'écran
+  http: ^1.1.0  # Pour les requêtes HTTP vers Telegram
+  permission_handler: ^10.4.0  # Pour gérer les permissions
+  path_provider: ^2.0.15  # Pour accéder au stockage
+  flutter_local_notifications: ^15.1.1  # Pour les notifications (optionnel)
+  intl: ^0.18.1  # Pour formater la date
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
