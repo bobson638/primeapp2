@@ -10,7 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
-  ed_screen_recorder: ^0.1.0  # Pour l'enregistrement d'écran
+  ed_screen_recorder: ^2.0.0  # Pour l'enregistrement d'écran
   http: ^1.1.0  # Pour les requêtes HTTP vers Telegram
   permission_handler: ^10.4.0  # Pour gérer les permissions
   path_provider: ^2.0.15  # Pour accéder au stockage
@@ -23,4 +23,5 @@ dev_dependencies:
   flutter_lints: ^2.0.0
 
 flutter:
+
   uses-material-design: true
